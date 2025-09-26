@@ -10,6 +10,7 @@ This program takes a user input in seconds, validates the input, and then displa
 
 **Example:**
 Please enter the time in seconds: **65**
+
 00:01:05
 00:01:04
 ...

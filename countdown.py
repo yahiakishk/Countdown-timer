@@ -1,6 +1,8 @@
 import time
 
-while True:
+is_running = True
+
+while is_running:
     my_time = input("Please enter the time in seconds: ")
 
     if not my_time.isdigit() or int(my_time) <= 0:
@@ -22,4 +24,4 @@ while True:
 
     if not restart == "y":
         print("Goodbye!")
-        break
+        is_running = False
